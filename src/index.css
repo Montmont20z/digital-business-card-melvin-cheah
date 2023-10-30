@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+#root{
+    width: 550px;
+    height: 920px;
+    border: 1px solid black;
+    background-color:#23252C;
+    
+    font-family: Inter;
+}
+
+.app {
+    width: 317px;
+    height: 780px;
+    
+    margin-left: 116px;
+    margin-top:44px;
+}
+
+.main{
+    color: white;
+    height: auto;
+    background-color: #1A1B21;
+}
+
+.main-profile {
+    width: 317px;
+    height: 317px;
+}
+
+.main-detail{
+    padding: 0 34px;
+}
+
+.main-name {
+    width: 247px;
+    height: 26px;
+    margin-top: 21px;
+
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-position {
+    width: 247px;
+    height: 14px;
+    margin-top: 6px;
+
+    color: #F3BF99;
+    text-align: center;
+    font-size: 12.8px;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-email {
+    width: 247px;
+    height: 16px;
+
+    color: #F5F5F5;
+
+    text-align: center;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+}
+
+.main-email-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.main-email-button {
+    width: 247px;
+    height: auto;
+    display: block;
+    padding: 9px 13px 9px 11px;
+    margin-bottom: 34px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--white, #FFF);
+
+    color: var(--gray-700, #374151);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    text-decoration: none;
+}
+
+.main-description-title{
+    width: 242.712px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: #F5F5F5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+
+.main-description{
+    margin: 0px;
+    padding-bottom: 27px;
+}
+
+.footer {
+    background-color: #161619;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
