@@ -1,5 +1,7 @@
 # digital-business-card-melvin-cheah
 
+<img src="./src/image/result.png" />
+
 this is a small project build with React library, it show case the ability to work with HTML, CSS, Javascript with the React Framework
 
 to open this webpage, you will need to download the node.js library, then install it in your computer, you can refer this website for download
